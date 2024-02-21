@@ -1,5 +1,12 @@
 class Student:
     def __init__(self, name, house) -> None:
+        """
+        initialize a student object with a name and house
+
+        Args:
+            name(str) : the name of the student 
+            house(str) : the name of the house
+        """
         self.name = name
         self.house = house
 
